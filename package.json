@@ -1,0 +1,27 @@
+{
+  "author": "Stephan Seidt <evilhackerdude@gmail.com>",
+  "name": "octobertest",
+  "description": "Convert between different test result formats",
+  "version": "0.0.0",
+  "homepage": "https://github.com/uxebu/octobertest",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:uxebu/octobertest.git"
+  },
+  "bin": {
+    "octobertest": "./bin/octobertest.js"
+  },
+  "main": "./index",
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": "~0.6"
+  },
+  "dependencies": {
+    "commander": "0.4.2"
+  },
+  "devDependencies": {
+    "urun": "0.0.4"
+  }
+}

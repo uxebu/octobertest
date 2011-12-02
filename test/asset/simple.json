@@ -1,0 +1,17 @@
+{ "suites":
+  [
+    {
+      "name": "foo",
+      "tests": [
+        {
+          "name": "Foo should bar the baz",
+          "passed": false,
+          "expected": 1337,
+          "actual": 1338,
+          "error": "Expected 1337 to be 1338",
+          "stacktrace": "foo()\nbar()\nbaz()\n"
+        }
+      ]
+    }
+  ]
+}

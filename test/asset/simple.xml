@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?><testsuites><testsuite name="foo"><testcase name="Foo should bar the baz"><failure message="Expected 1337 to be 1338">foo()
+bar()
+baz()
+</failure></testsuite></testsuites>
