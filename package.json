@@ -2,7 +2,7 @@
   "author": "Stephan Seidt <evilhackerdude@gmail.com>",
   "name": "octobertest",
   "description": "Convert between different test result formats",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/uxebu/octobertest",
   "repository": {
     "type": "git",
