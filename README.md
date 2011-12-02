@@ -13,7 +13,9 @@ Formats will be guessed from file extensions, so this will also work:
 
     octobertest foo.json bar.xml
 
-## Input format example
+## Example conversion
+
+This JSON:
 
 ~~~ json
 { "suites":
@@ -35,7 +37,7 @@ Formats will be guessed from file extensions, so this will also work:
 }
 ~~~
 
-Would result in the following output:
+would result in the following JUnit XML output:
 
 ~~~ xml
 <?xml version="1.0" encoding="UTF-8" ?><testsuites><testsuite name="foo"><testcase name="Foo should bar the baz"><failure message="Expected 1337 to be 1338">foo()
@@ -43,3 +45,9 @@ bar()
 baz()
 </failure></testsuite></testsuites>
 ~~~
+
+## JSON format
+
+The JSON format is very alpha and hasn't been battle tested yet.
+It is contrived to having test suites with test cases.
+Ideally it should also just accept a simple list of tests and derive the suite name from the file name. 
